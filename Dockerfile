@@ -11,4 +11,4 @@ RUN apt-get update \
 
 WORKDIR /build
 
-ENTRYPOINT ["/usr/local/bin/opmbuild"]
+CMD ["/usr/local/bin/opmbuild"]
